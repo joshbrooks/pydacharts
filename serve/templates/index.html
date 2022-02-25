@@ -1,0 +1,43 @@
+
+<html>
+    <head>
+        <script src="/static/chart.min.js"></script>
+    </head>
+
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          /* background-color: #2196F3; */
+          padding: 10px;
+        }
+        .grid-item {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+        }
+        </style>
+
+    <body>
+        <div class="grid-container">
+        {% for name, config in charts.items() %}
+            <div class="gird-item">
+                <canvas id="{{name}}"></canvas>
+            </div>
+        {% endfor %}
+        </div>
+
+        {% for name, config in charts.items() %}
+
+        <script>
+            (function () {
+            const data = {{config | safe}};
+            const ctx = document.getElementById('{{name}}').getContext('2d');
+            const myChart = new Chart(ctx, data);
+            })();
+        </script>
+        {% endfor %}
+    </body>
+</html>
