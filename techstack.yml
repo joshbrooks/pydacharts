@@ -1,0 +1,224 @@
+repo_name: joshbrooks/pydacharts
+report_id: 7c6d53c82bfbeb9864aa0dc04a6741dc
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:24:26+00:00'
+requested_by: joshbrooks
+provider: github
+branch: main
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 3.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/poetry.lock
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: Tornado
+  description: A Python web framework and asynchronous networking library, originally
+    developed at FriendFeed
+  website_url: http://www.tornadoweb.org/
+  version: '6.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1002/tornado.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2022-03-15 13:46:05.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: Pandoc
+  description: A universal document converter
+  website_url: https://pandoc.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.21.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: Pandas
+  description: High-performance, easy-to-use data structures and data analysis tools
+    for the Python programming language
+  website_url: http://pandas.pydata.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2180/1284191.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 1.7.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
+- name: scikit-learn
+  description: Easy-to-use and general-purpose machine learning in Python
+  website_url: http://scikit-learn.org/stable/
+  version: 0.24.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2657/scikit-learn-logo.png
+  detection_source_url: https://github.com/joshbrooks/pydacharts/blob/main/requirements/jupyter.txt
+  detection_source: requirements/jupyter.txt
+  last_updated_by: Joshua Brooks
+  last_updated_on: 2021-09-21 15:13:34.000000000 Z
